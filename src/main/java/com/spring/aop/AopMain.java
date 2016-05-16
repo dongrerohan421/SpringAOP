@@ -20,7 +20,6 @@ public class AopMain {
 			System.out.println(shapeService.getTriangle().getName());
 
 		} catch (Exception e) {
-
 			System.out.println(e.getMessage());
 		}
 	}
