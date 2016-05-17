@@ -9,7 +9,7 @@ public class LoggingAspect {
 
 	// executes LoggingAdvice() before execution of getName()
 	// @Before("execution(public String getName())")
-	@Before("allGetters()")
+	@Before("allGetters() && allCircleMetods()")
 	public void LoggingAdvice() {
 		System.out.println("Advice run.Get method called");
 	}
