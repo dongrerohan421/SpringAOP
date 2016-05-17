@@ -24,4 +24,8 @@ public class LoggingAspect {
 	@Pointcut("execution(* get*())")
 	public void allGetters() {
 	}
+
+	@Pointcut("within(com.spring.aop.model.Circle)")
+	public void allCircleMetods() {
+	}
 }
