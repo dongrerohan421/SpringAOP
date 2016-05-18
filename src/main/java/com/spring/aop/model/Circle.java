@@ -5,6 +5,7 @@ public class Circle {
 	private String name;
 
 	public String getName() {
+		System.out.println("Circle's getter called.");
 		return name;
 	}
 

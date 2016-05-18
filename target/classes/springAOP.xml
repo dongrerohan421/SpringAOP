@@ -13,7 +13,7 @@
 	</bean>
 
 	<bean id="circle" class="com.spring.aop.model.Circle">
-		<!-- <property name="name" value="Circle Name" /> -->
+		<property name="name" value="Circle Name" />
 	</bean>
 
 	<bean id="shapeService" class="com.spring.aop.service.ShapeService"
